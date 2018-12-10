@@ -1,0 +1,10 @@
+.flex{
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center
+}
+.flex view{
+  /* flex:1; */
+  text-align: center;
+}

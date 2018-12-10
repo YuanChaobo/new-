@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/item/item",
+    "pages/components/components",
+    "pages/qingdao/qingdao",
+    "pages/lijiang/lijiang"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "支付购物",
+    "navigationBarTextStyle":"black"
+  }
+}

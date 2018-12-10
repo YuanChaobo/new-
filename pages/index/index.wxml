@@ -1,0 +1,21 @@
+<view class='container'>
+  <view class="">
+    <view class='banner'>
+      <image class='banner-img' style='widht:720rpx; height:300rpx'  src='../images/banner.jpg' mode="scaleToFill"></image>
+    </view>
+    <!-- tab -->
+    <view class='box'>
+      <navigator bindtap='onTabItemTap' data-index='{{index}}' class="box-size {{defaultIndex===index?'bg':''}}" wx:for="{{arrtext}}" wx:key="{{item.id}}" url='{{item.url}}' >{{item.title}}</navigator>
+    </view>
+    <view class='title-sytle'>{{content.title}}</view>
+    <view class='box'>
+      <navigator class='nav-style' wx:for="{{stand}}" wx:for-item="site" url='{{site.url}}' hover-class='none'>
+        <view class='nav-view'>
+          <image src='{{site.src}}' mode='scaleToFill'></image>
+          <text>{{site.text}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  
+</view>

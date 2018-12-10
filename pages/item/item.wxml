@@ -1,0 +1,5 @@
+<template name="item">
+  <view class='colors'>
+    被引用的item页面
+  </view>
+</template>

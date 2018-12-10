@@ -1,0 +1,7 @@
+<!--pages/components/components.wxml-->
+<view>
+  <text>这里是模板内容</text>
+  <view>这里是第二条的数据</view>
+  <slot></slot>
+</view>
+

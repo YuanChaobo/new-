@@ -1,0 +1,38 @@
+/**app.wxss**/
+ .box{
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   align-items: center;
+ }
+ .box-size{
+   flex:1;
+   align-self: center;
+ }
+
+ .cutting-line{
+   font-size: 0rpx;
+   position: relative;
+   height: 1rpx;
+   line-height: 1rpx;
+   margin-left: 30rpx;
+   margin-right: 30rpx;
+   background: #333;
+ }
+ .line-direction{
+    font-size: 25rpx;
+    height: 11rpx;
+    font-style: normal;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10rpx;
+    padding-right:10rpx;
+    padding-top: 0rpx;
+    padding-bottom: 0rpx;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    z-index: 10;
+ }
+
